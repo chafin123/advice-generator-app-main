@@ -9,25 +9,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./styles/styles.css">
   <script src="./script.js" defer></script>
-  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Advice generator app</title>
 </head>
 <body>
   <div class="cardContainer">
     <div class="card">
-        <p>Advice <span id="adviceNumber">#</span></p>
+        <p>Advice <span id="adviceNumber" >#</span></p>
 
       <div class="card-body">
-        <q id="generatedAdvice"></q>
-      </div>
-      <div class="line">
+          <q class="typeEffect" id="generatedAdvice"></q>
+        </div>
+        <div class="line">
         <div class="lineImage">
         </div>
       </div>
     
     <div class="card-footer text-center">
-      <button class="btn" id="dataGetButton">
+      <button class="btn spinBtn" id="dataGetButton">
         <img src="./images/icon-dice.svg" alt="" srcset="">
       </button>
     </div>
@@ -38,5 +38,7 @@
       Coded by <a href="https://chafin123.github.io/Mod-Portfolio-Site/">Steven Chafin</a>.
     </div>
   </div>
+  <!-- <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
+  <script src="/path/to/typeit/source"></script> -->
 </body>
 </html>
