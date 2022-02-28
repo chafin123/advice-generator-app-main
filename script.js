@@ -5,8 +5,10 @@ const apiUrl = "https://api.adviceslip.com/advice";
 
 
 resultsButton.addEventListener("click", () => {
+    resultsButton.disabled = true;
+    
     //Request Data
-    fetch(apiUrl, {cache: "no-cache"})
+    fetch(apiUrl)
       .then((response) => response.json())
       .then((response) => {
         let data = response.slip;
@@ -25,6 +27,7 @@ resultsButton.addEventListener("click", () => {
              i++;
            } else {
              clearInterval(timer)
+             resultsButton.disabled = false;
            }
          },80)
       });
