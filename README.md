@@ -22,7 +22,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 Users should be able to:
 
-- Generate advice upon clicking t ebutton
+- Generate advice upon clicking the button
 
 ### Links
 
